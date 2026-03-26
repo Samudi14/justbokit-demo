@@ -94,8 +94,8 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full text-sm font-semibold"
-            style={{ background: "rgba(245,166,35,0.2)", border: "1px solid rgba(245,166,35,0.4)", color: "#F5A623" }}
+            className="inline-flex items-center gap-2.5 mb-8 px-5 py-2.5 rounded-full text-sm md:text-base font-bold tracking-wide"
+            style={{ background: "rgba(245,166,35,0.35)", border: "1px solid rgba(245,166,35,0.6)", color: "white", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)" }}
           >
             <span aria-hidden="true">🌴</span>
             <span>Cuisine Afro-Caribéenne • Coignières</span>
@@ -171,22 +171,7 @@ export default function HomePage() {
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-          aria-hidden="true"
-        >
-          <span style={{ color: "rgba(255,255,255,0.4)", fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>Découvrir</span>
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-            style={{ width: "1.25rem", height: "2rem", borderRadius: "9999px", border: "1px solid rgba(255,255,255,0.3)", display: "flex", alignItems: "flex-start", justifyContent: "center", paddingTop: "0.375rem" }}
-          >
-            <div style={{ width: "0.25rem", height: "0.5rem", borderRadius: "9999px", background: "rgba(255,255,255,0.5)" }} />
-          </motion.div>
-        </motion.div>
+        {/* Scroll indicator supprimé — chevauchait la barre de social proof */}
       </section>
 
       {/* ── NOS SPÉCIALITÉS ───────────────────────────────────────────────── */}
