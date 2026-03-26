@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Plus, Minus, Trash2, ShoppingBag, Clock, MapPin, ArrowRight, Check, ShoppingCart } from "lucide-react";
+import { Plus, Minus, Trash2, ShoppingBag, Clock, MapPin, ArrowRight, Check, ShoppingCart } from "@/components/Icons";
 import AnimatedSection from "@/components/AnimatedSection";
 import { useCart } from "@/contexts/CartContext";
 

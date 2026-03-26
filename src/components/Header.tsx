@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { ShoppingCart, Menu, X, Phone } from "lucide-react";
+import { ShoppingCart, Menu, X, Phone } from "@/components/Icons";
 import { useCart } from "@/contexts/CartContext";
 
 const navLinks = [

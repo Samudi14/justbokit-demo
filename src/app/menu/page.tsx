@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, Suspense } from "react";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { ShoppingCart, Plus, Minus, Check, Leaf, Flame } from "lucide-react";
+import { ShoppingCart, Plus, Minus, Check, Leaf, Flame } from "@/components/Icons";
 import AnimatedSection from "@/components/AnimatedSection";
 import { menuItems, categories } from "@/data/menu";
 import { useCart } from "@/contexts/CartContext";

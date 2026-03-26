@@ -13,7 +13,7 @@ import {
   Truck,
   Users,
   Leaf,
-} from "lucide-react";
+} from "@/components/Icons";
 import AnimatedSection from "@/components/AnimatedSection";
 import { menuItems, restaurantInfo, testimonials } from "@/data/menu";
 

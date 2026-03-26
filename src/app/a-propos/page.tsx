@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Star, Heart, Leaf, Flame } from "lucide-react";
+import { Star, Heart, Leaf, Flame } from "@/components/Icons";
 import AnimatedSection from "@/components/AnimatedSection";
 import { restaurantInfo } from "@/data/menu";
 import type { Metadata } from "next";

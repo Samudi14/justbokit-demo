@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram, Facebook } from "@/components/Icons";
 import { restaurantInfo } from "@/data/menu";
-import { InstagramIcon, FacebookIcon } from "@/components/SocialIcons";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -36,7 +35,7 @@ export default function Footer() {
                 className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-brand-orange transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-yellow"
                 aria-label="Instagram de Just Bokit Food"
               >
-                <InstagramIcon size={18} />
+                <Instagram size={18} />
               </a>
               <a
                 href={restaurantInfo.socials.facebook}
@@ -45,7 +44,7 @@ export default function Footer() {
                 className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-brand-orange transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-yellow"
                 aria-label="Facebook de Just Bokit Food"
               >
-                <FacebookIcon size={18} />
+                <Facebook size={18} />
               </a>
             </div>
           </div>

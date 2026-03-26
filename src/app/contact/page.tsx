@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Clock, Send, Check } from "lucide-react";
-import { InstagramIcon, FacebookIcon } from "@/components/SocialIcons";
+import { MapPin, Phone, Clock, Send, Check, Instagram, Facebook } from "@/components/Icons";
 import AnimatedSection from "@/components/AnimatedSection";
 import { restaurantInfo } from "@/data/menu";
 
@@ -118,7 +117,7 @@ export default function ContactPage() {
                     style={{ background: "linear-gradient(135deg, #E1306C, #833AB4)", color: "white" }}
                     aria-label="Suivre Just Bokit Food sur Instagram"
                   >
-                    <InstagramIcon size={18} /> Instagram
+                    <Instagram size={18} /> Instagram
                   </a>
                   <a
                     href={restaurantInfo.socials.facebook}
@@ -128,7 +127,7 @@ export default function ContactPage() {
                     style={{ background: "#1877F2", color: "white" }}
                     aria-label="Suivre Just Bokit Food sur Facebook"
                   >
-                    <FacebookIcon size={18} /> Facebook
+                    <Facebook size={18} /> Facebook
                   </a>
                 </div>
               </div>

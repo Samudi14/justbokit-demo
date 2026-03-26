@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Check, Send, Calendar, Users, MapPin, ChefHat, Star } from "lucide-react";
+import { Check, Send, Calendar, Users, MapPin, ChefHat, Star } from "@/components/Icons";
 import AnimatedSection from "@/components/AnimatedSection";
 
 const formules = [
