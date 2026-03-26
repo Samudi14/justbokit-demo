@@ -331,7 +331,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <div className="absolute -bottom-4 -right-4 sm:bottom-6 sm:right-0 px-5 py-3 rounded-2xl text-white shadow-xl" style={{ background: "#1C1C1E" }}>
+              <div className="absolute -bottom-4 right-0 sm:bottom-6 px-5 py-3 rounded-2xl text-white shadow-xl" style={{ background: "#1C1C1E" }}>
                 <div className="flex items-center gap-2">
                   <div className="flex" aria-label="Note 5 étoiles">
                     {[...Array(5)].map((_, i) => (

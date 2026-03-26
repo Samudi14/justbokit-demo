@@ -30,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${geistSans.variable} h-full`}>
-      <body className="min-h-full flex flex-col antialiased">
+    <html lang="fr" className={`${geistSans.variable} h-full overflow-x-hidden`}>
+      <body className="min-h-full flex flex-col antialiased overflow-x-hidden">
         <CartProvider>
           <Header />
           <main className="flex-1">{children}</main>
